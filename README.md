@@ -32,6 +32,7 @@ This project demonstrates the use of the Contentful platform for managing and de
 ## Usage
 
 ### Testing APIs
+- Ps, my read only API key is exposed here, but it will be deleted once I finish my tests...
 
 #### Get Space with Authorization Header
 ```bash
@@ -153,13 +154,11 @@ query Asset {
 
 ### Testing React
 
-Forked the project shared in this email [here](https://codesandbox.io/s/hx0de). and got it working with my contentful account, tested some blog posts from my account to make sure it's working fine, and also tested the schedule.
-
-[here](https://codesandbox.io/p/sandbox/react-contentful-forked-9twdlq)
+Forked the project shared in this email [here](https://codesandbox.io/s/hx0de). and got it working with my contentful account, tested some blog posts from my account to make sure it's working fine, and also tested the schedule [here](https://codesandbox.io/p/sandbox/react-contentful-forked-9twdlq) is the project that uses my contentful account.
 
 
 ## Troubleshooting 
 
-*Ensure that the environment is set correctly in your API calls. The default environment is master.
-*Verify that the space ID, access tokens, and content type IDs are correctly specified.
-*Common error: NotFound - Ensure the entry ID and environment are correct.
+- Ensure that the environment is set correctly in your API calls. The default environment is master.
+- Verify that the space ID, access tokens, and content type IDs are correctly specified.
+- Common error: NotFound - Ensure the entry ID and environment are correct.
